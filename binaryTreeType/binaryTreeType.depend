@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1684511292 source:c:\users\ashish\desktop\c++ data structures and algorithms\binarytreetype\binarytreetype.cpp
+	"binaryTreeType.h"
+
+1684519019 c:\users\ashish\desktop\c++ data structures and algorithms\binarytreetype\binarytreetype.h
+
+1584205420 source:c:\users\ashish\desktop\c++ data structures and algorithms\binarytreetype\main.cpp
+	<iostream>
+
+1684511294 source:c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\binarytreetype\binarytreetype.cpp
+	"binaryTreeType.h"
+
+1685526416 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\binarytreetype\binarytreetype.h
+	<iostream>
+
+1685526334 source:c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\binarytreetype\main.cpp
+	<iostream>
+	"binarySearchTreeType.h"
+
+1685528801 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\binarytreetype\binarysearchtreetype.h
+	"binaryTreeType.h"
+

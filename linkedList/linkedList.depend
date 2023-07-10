@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1683979988 source:c:\users\ashish\desktop\c++ data structures and algorithms\linkedlist\main.cpp
+	<iostream>
+	<cassert>
+	"orderedLinkedList.h"
+
+1683561147 source:c:\users\ashish\desktop\c++ data structures and algorithms\linkedlist\linkedlistiterator.cpp
+	"linkedListIterator.h"
+
+1683561145 c:\users\ashish\desktop\c++ data structures and algorithms\linkedlist\linkedlistiterator.h
+
+1683473632 c:\users\ashish\desktop\c++ data structures and algorithms\linkedlist\linkedlistiterator.cpp
+	"linkedListIterator.h"
+
+1683561108 source:c:\users\ashish\desktop\c++ data structures and algorithms\linkedlist\linkedlisttype.cpp
+
+1683564302 source:c:\users\ashish\desktop\c++ data structures and algorithms\linkedlist\unorderedlinkedlist.cpp
+
+1683641826 source:c:\users\ashish\desktop\c++ data structures and algorithms\linkedlist\orderedlinkedlist.cpp
+
+1683905186 c:\users\ashish\desktop\c++ data structures and algorithms\linkedlist\orderedlinkedlist.h
+	"linkedListType.h"
+
+1683980141 c:\users\ashish\desktop\c++ data structures and algorithms\linkedlist\linkedlisttype.h
+	<iostream>
+	"linkedListIterator.h"
+
+1683979990 source:c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\linkedlist\main.cpp
+	<iostream>
+	<cassert>
+	"orderedLinkedList.h"
+
+1683905188 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\linkedlist\orderedlinkedlist.h
+	"linkedListType.h"
+
+1683980142 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\linkedlist\linkedlisttype.h
+	<iostream>
+	"linkedListIterator.h"
+
+1683561146 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\linkedlist\linkedlistiterator.h
+
