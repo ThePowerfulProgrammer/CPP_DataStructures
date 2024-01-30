@@ -155,41 +155,40 @@ void orderedLinkedList<Type>::deleteNode(const Type& deleteItem)
                             trailCurrent = current;
                             current = current->link;
                         }
-                    if (current == nullptr)
+                }
+            if (current == nullptr)
+                {
+                    cout << "Item to be Yeeted is not in list" << endl;
+                }
+            else
+                {
+                    if (current->info == deleteItem)
                         {
-                            cout << "Item to be Yeeted is not in list" << endl;
-                        }
-                    else
-                        {
-                            if (current->info == deleteItem)
+                            if (this->first == current)
                                 {
-                                    if (this->first == current)
+                                    this->first = this->first->link;
+                                    if (this->first == nullptr)
                                         {
-                                            this->first = this->first->link;
-                                            if (this->first == nullptr)
-                                                {
-                                                    this->last = nullptr;
-                                                }
-                                            delete current;
+                                            this->last = nullptr;
                                         }
-                                    else
-                                        {
-                                            trailCurrent->link = current->link;
-
-                                            if (current == this->last)
-                                                {
-                                                    this->last = trailCurrent;
-                                                }
-                                            delete current;
-                                        }
-                                    this->count--;
+                                    delete current;
                                 }
                             else
                                 {
-                                    cout << "The item to be removed is not in the list" << endl;
-                                }
-                        }
+                                    trailCurrent->link = current->link;
 
+                                    if (current == this->last)
+                                        {
+                                            this->last = trailCurrent;
+                                        }
+                                    delete current;
+                                }
+                            this->count--;
+                        }
+                    else
+                        {
+                            cout << "The item to be removed is not in the list" << endl;
+                        }
                 }
         }
 }

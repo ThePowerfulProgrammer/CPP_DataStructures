@@ -1,6 +1,5 @@
 #ifndef GRAPHTYPE_H
 #define GRAPHTYPE_H
-#include
 
 
 class graphType

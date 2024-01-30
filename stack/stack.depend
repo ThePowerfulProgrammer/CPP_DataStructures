@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1690994617 source:c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\stack\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<iomanip>
+	"stackType.h"
+	"linkedStackType.h"
+
+1698237457 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\stack\stacktype.h
+	<iostream>
+	<cassert>
+	"stackADT.h"
+
+1690129426 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\stack\stackadt.h
+
+1690138796 source:c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\stack\gpa.cpp
+
+1690899461 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\stack\linkedstacktype.h
+	"stackADT.h"
+

@@ -64,6 +64,10 @@ class linkedListType
         // deletes all nodes
         // PC: List is destroyed
 
+        void reversePrint(nodeType<Type>* current) const;
+        // Reverse print a linked -> list
+        void printListReverse() const;
+
     protected:
         int count;
         nodeType<Type> *first; // pointer to the first node in the LinkedList Data structure
@@ -224,6 +228,34 @@ linkedListType<Type>::~linkedListType()
 {
     //dtor
     destroyList();
+}
+
+
+
+
+
+
+
+// Reverse print the LL, starting from the last node and moving toward the first node
+template <class Type>
+void linkedListType<Type>::reversePrint(nodeType<Type>* current) const
+{
+    // Base case
+    if (current != nullptr)
+        {
+            // RC the function reversePrint on the next node, until we reach a null
+            reversePrint(current->link);
+
+            // Print info of the current node
+            cout << current->info << " " ;
+        }
+}
+
+template <class Type>
+void linkedListType<Type>::printListReverse() const
+{
+    reversePrint(first);
+    cout << endl;
 }
 
 #endif // LINKEDLISTTYPE_H

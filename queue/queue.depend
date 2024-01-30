@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1692294555 source:c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\queue\main.cpp
+	<iostream>
+	"queueType.h"
+	"linkedQueueType.h"
+	"customerType.h"
+	"serverType.h"
+	"serverListType.h"
+
+1691690396 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\queue\queuetype.h
+	"queueADT.h"
+	<cassert>
+	<iostream>
+
+1691691183 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\queue\queueadt.h
+
+1691691073 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\queue\linkedqueuetype.h
+	"queueADT.h"
+	<cassert>
+	<iostream>
+
+1691855773 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\queue\customertype.h
+
+1692117878 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\queue\servertype.h
+	"customerType.h"
+
+1692294617 c:\users\ashis\onedrive\desktop\c++\c++ data structures and algorithms\queue\serverlisttype.h
+	<iostream>
+	<ostream>
+	"customerType.h"
+	"serverType.h"
+

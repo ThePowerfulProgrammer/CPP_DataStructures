@@ -23,10 +23,10 @@ class unorderedLinkedList : public linkedListType<Type>
     private:
 };
 
-class <template class>
+template <class Type>
 bool unorderedLinkedList<Type>::search(const Type& searchItem) const
 {
-    newNode *temp;
+    nodeType<Type> *temp;
     bool found = false;
     temp = this->first;
     while (temp != nullptr && !found)
@@ -43,10 +43,10 @@ bool unorderedLinkedList<Type>::search(const Type& searchItem) const
     return found;
 }
 
-class <template class>
+template <class Type>
 void unorderedLinkedList<Type>::insertFirst(const Type& newItem)
 {
-    newNode<Type> *newNode;
+    nodeType<Type> *newNode;
     newNode = new nodeType<Type>;
     newNode->info = newItem;
     newNode->link = this->first;
@@ -56,11 +56,11 @@ void unorderedLinkedList<Type>::insertFirst(const Type& newItem)
 
     if (this->last == nullptr)
         {
-            last = newNode;
+            this->last = newNode;
         }
 }
 
-class <template class>
+template <class Type>
 void unorderedLinkedList<Type>::insertLast(const Type& newItem)
 {
     nodeType<Type> *newNode;
@@ -84,7 +84,7 @@ void unorderedLinkedList<Type>::insertLast(const Type& newItem)
         }
 }
 
-class <template class>
+template <class Type>
 void unorderedLinkedList<Type>::deleteNode(const Type& deleteItem)
 {
     nodeType<Type> *current;
@@ -112,7 +112,7 @@ void unorderedLinkedList<Type>::deleteNode(const Type& deleteItem)
             else
                 {
                     found = false;
-                    trailCurrent = first;
+                    trailCurrent = this->first;
 
                     current = this->first->link;
                     while (current != nullptr & !found)

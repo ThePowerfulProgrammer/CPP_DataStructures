@@ -1,5 +1,7 @@
 #ifndef GRAPHTYPE_H
 #define GRAPHTYPE_H
+#include <iostream>
+#include <fstream>
 #include "unorderedLinkedList.h"
 
 class graphType
@@ -27,7 +29,7 @@ class graphType
         void dft(int v, bool visited[]);
 };
 
-void graphType::isEmpty()
+bool graphType::isEmpty()
 {
     return (gSize == 0);
 }

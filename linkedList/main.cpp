@@ -60,7 +60,11 @@ int main()
     list2.print();
     cout << endl;
 
-
+    cout << endl << endl << endl << endl;
+    cout << "How can we reverse the linked list using recursion? " << endl;
+    cout << "Below is a linked list reversed" << endl;
+    // call parent method
+    list1.printListReverse();
 
 
     return 0;
